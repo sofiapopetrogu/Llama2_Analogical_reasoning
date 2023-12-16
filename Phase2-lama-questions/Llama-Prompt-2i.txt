@@ -1,4 +1,4 @@
-Imagine you are a human with average intelligence asked to perform an analogical reasoning task. I'm going to give you lines of a prompt of the same type. Each line will have four word pairs in format X:Y and I will define their relation prior. For example, given the following X:Y word pairs: flower:tulip, emotion:rage, poem:sonnet, "Y is a kind/type/instance of X" would be the correct definition for the word pairs' relation. 
+I'm going to give you lines of a prompt of the same type. Each line will have four word pairs in format X:Y and I will define their relation. 
 Your task for each line prompt is to output the most illustrative and least illustrative word pairs out of the 4 given word pairs based on the given relation. Your output for each prompt should be one line with the 4 pairs followed by the least illustrative and then the most illustrative pair. Output only this information without any other comments. Put double quotes around each pair in the response and have a space between each pair. 
 
 The relation is the following: "X is devoid of / cannot have Y"
@@ -7,14 +7,14 @@ Here are the pairs:
 
 "tree:blood","jesus:sins","woman:penis","ocean:camel"
 "forest:sand","desert:evergreen","poverty:riches","fish:hair"
-"heaven:sinners","mollusk:spine","bird:lips","worm:feet"
+"heaven:sinners","mollusk:spine","bird:lips","worm:feet" 
 "sinners:heaven","deaf:hearing","water:calories","plain:tree"
-"hair:fish","ocean:dryness","health:disease","penguin:flight"
-"animals:soul","desert:water","animal:leaf","camel:ocean"
+"hair:fish","ocean:dryness","health:disease","penguin:flight" 
+"animals:soul","desert:water","animal:leaf","camel:ocean" #
 "hearing:deaf","snake:feet","honesty:deception","venus:life"
 "pig:horns","unemployed:job","poor:money","mammal:scales"
 "snake:legs","famine:food","pride:embarrassment","infinite:end"
-"skunk:pouch","flight:penguin","hell:saints","jesus:sins"
+"skunk:pouch","flight:penguin","hell:saints","jesus:sins" 
 "camel:ocean","health:disease","mammal:scales","honesty:deception"
 "flight:penguin","animals:soul","deaf:hearing","snake:feet"
 "pig:horns","skunk:pouch","poor:money","ocean:camel"
